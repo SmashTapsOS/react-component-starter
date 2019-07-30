@@ -4,6 +4,9 @@
   "description": "A simple project starter for react component development",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint 'src/**/*.js'",
+    "lint:fix": "eslint 'src/**/*.js' --fix",
+    "prettify": "prettier 'src/**/*.js' --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +26,12 @@
   "bugs": {
     "url": "https://github.com/samAbeywickrama/react-component-starter/issues"
   },
-  "homepage": "https://github.com/samAbeywickrama/react-component-starter#readme"
+  "homepage": "https://github.com/samAbeywickrama/react-component-starter#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "1.18.2"
+  }
 }
