@@ -8,7 +8,9 @@
     "lint:fix": "eslint 'src/**/*.js' --fix",
     "prettify": "prettier 'src/**/*.js' --write",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "build": "rollup -c",
+    "prebuild": "rimraf dist"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,9 @@
   },
   "homepage": "https://github.com/samAbeywickrama/react-component-starter#readme",
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
     "commitizen": "^4.0.3",
@@ -40,7 +45,9 @@
     "git-cz": "^3.2.1",
     "husky": "^3.0.2",
     "prettier": "1.18.2",
+    "rimraf": "^2.6.3",
     "rollup": "^1.17.0",
+    "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-node-resolve": "^5.2.0"
   },
   "husky": {
