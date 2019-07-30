@@ -39,7 +39,9 @@
     "eslint-plugin-react": "^7.14.3",
     "git-cz": "^3.2.1",
     "husky": "^3.0.2",
-    "prettier": "1.18.2"
+    "prettier": "1.18.2",
+    "rollup": "^1.17.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
   },
   "husky": {
     "hooks": {
