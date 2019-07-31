@@ -8,7 +8,9 @@
     "lint": "eslint 'src/**/*.js'",
     "lint:fix": "eslint 'src/**/*.js' --fix",
     "prettify": "prettier 'src/**/*.js' --write",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "commit": "git-cz",
     "build": "rollup -c",
     "build:watch": "rollup -c -w",
@@ -38,15 +40,21 @@
     "@babel/preset-react": "^7.0.0",
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
+    "babel-jest": "^24.8.0",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "3.0.2",
     "eslint": "^6.1.0",
     "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-jest": "^22.14.1",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
     "git-cz": "^3.2.1",
     "husky": "^3.0.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.8.0",
     "prettier": "1.18.2",
+    "react": "^16.8.6",
+    "react-test-renderer": "^16.8.6",
     "rimraf": "^2.6.3",
     "rollup": "^1.17.0",
     "rollup-plugin-babel": "^4.3.3",
@@ -72,7 +80,10 @@
   "engines": {
     "node": ">=10"
   },
-  "dependencies": {
-    "react": "^16.8.6"
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css)$": "<rootDir>/__mocks__/styles.js",
+      "\\.(css|less)$": "identity-obj-proxy"
+    }
   }
 }
