@@ -2,7 +2,8 @@
   "name": "react-component-starter",
   "version": "1.0.0",
   "description": "A simple project starter for react component development",
-  "main": "index.js",
+  "main": "./dist/bundle.cjs.js",
+  "module": "./dist/bundle.esm.js",
   "scripts": {
     "lint": "eslint 'src/**/*.js'",
     "lint:fix": "eslint 'src/**/*.js' --fix",
@@ -69,5 +70,8 @@
   },
   "engines": {
     "node": ">=10"
+  },
+  "dependencies": {
+    "react": "^16.8.6"
   }
 }
