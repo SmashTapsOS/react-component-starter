@@ -1,6 +1,7 @@
 import babel from "rollup-plugin-babel";
 import resolve from "rollup-plugin-node-resolve";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
+import postcss from "rollup-plugin-postcss";
 import { terser } from "rollup-plugin-terser";
 
 const name = "Name";
@@ -31,6 +32,9 @@ export default {
   plugins: [
     peerDepsExternal(),
     resolve(),
+    postcss({
+      modules: true
+    }),
     babel({
       exclude: "node_modules/**"
     }),
