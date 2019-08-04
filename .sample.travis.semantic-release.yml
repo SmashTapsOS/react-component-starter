@@ -4,6 +4,10 @@ cache:
   directories:
     - node_modules
 
+branches:
+  only:
+    - master
+
 node_js:
   - node
 
