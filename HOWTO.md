@@ -15,10 +15,10 @@
 
 This repo uses travis CI with semantic release to automate the release process.
 
-- Copy `.sample-semantic-release.travis.yml` into `travis.yml`
-- Run `npx semantic-release-cli setup`. You will see a list of questions.
 - Go to Travis https://travis-ci.org/ and signup
 - Enable TravisCI for your repository form the Travis CI dashboard.
+- Copy `.sample-semantic-release.travis.yml` into `travis.yml`
+- Run `npx semantic-release-cli setup`. You will see a list of questions.
 - Select `Travis CI` as the CI tool and answer the other questions. (You can use any other ci tool as you like)
 - Go to https://coveralls.io/ and sign up
 - Enable coveralls for your repository from the coveralls dashboard
