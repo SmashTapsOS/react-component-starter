@@ -1,6 +1,6 @@
 # react-component-starter
 
-This repo contains everything you need to start to develop a react component or a library.
+This repo contains everything you need to start to developing a react component or a library.
 
 ## Available scripts
 
