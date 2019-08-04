@@ -1,9 +1,19 @@
 # react-component-starter
 
-This repo contains everything you need to start to developing a react component or a library.
+### -- Badges here --
 
-## Available scripts
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Build Status](https://travis-ci.org/samAbeywickrama/react-component-starter.svg?branch=master)](https://travis-ci.org/samAbeywickrama/react-component-starter)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
+[![Coverage Status](https://coveralls.io/repos/github/samAbeywickrama/react-component-starter/badge.svg?branch=master)](https://coveralls.io/github/samAbeywickrama/react-component-starter?branch=master)
 
+### -- Project description here --
+
+This repo is a starting point for creating react components and library
+
+### -- Available scripts here --
+
+- `yarn commit`: Commit conventionally
 - `yarn build`: - Build the component/lib.
 - `yarn build:watch` - Watch for changes and build.
 - `yarn test` - Run tests.
@@ -12,11 +22,4 @@ This repo contains everything you need to start to developing a react component 
 - `yarn lint` - Run eslint.
 - `yarn lint:fix` - Fix eslint errors.
 
-## Supported features
-
-- Commitizen friendly
-- Trevis CI
-- Jest testing framework
-- Pritter code formatting
-- Coveralls test coverage reports
-- Uses rollup to build the dist.
+### -- Features here --
