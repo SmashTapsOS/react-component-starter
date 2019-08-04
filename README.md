@@ -1,6 +1,6 @@
 [How to use this repo](https://github.com/samAbeywickrama/react-component-starter/blob/master/HOWTO.md)
 
-# react-component-starter
+# -- Your component/lib name here --
 
 ### -- Badges here --
 
