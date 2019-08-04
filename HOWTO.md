@@ -42,3 +42,11 @@ This repo uses `semantic-release` with `commitizen`. Releases are managed by Tra
 ## Rollup.js
 
 You can find all the rollup related configurations in `rollup.config.js`
+
+## Test Component in the browser
+
+- cd into to `exmaple/cra`
+- Run `npm install`
+- Run `npm intall ../..` now your component is included in `node_modules`
+- Open `example/cra/src/app.js` and import your component. Call it in the render method
+- Run `npm start`
