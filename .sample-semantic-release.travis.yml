@@ -17,6 +17,7 @@ after_success:
 script:
   - yarn lint
   - yarn test:coveralls
+  - yarn build
 
 notifications:
   email: false
