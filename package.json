@@ -1,6 +1,6 @@
 {
   "name": "react-component-starter",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "A simple project starter for react component development",
   "main": "./dist/bundle.cjs.js",
   "module": "./dist/bundle.esm.js",
@@ -15,11 +15,12 @@
     "commit": "git-cz",
     "build": "rollup -c",
     "build:watch": "rollup -c -w",
-    "prebuild": "rimraf dist"
+    "prebuild": "rimraf dist",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samAbeywickrama/react-component-starter.git"
+    "url": "https://github.com/samAbeywickrama/react-component-starter.git"
   },
   "keywords": [
     "react",
@@ -63,7 +64,8 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^2.0.3",
-    "rollup-plugin-terser": "^5.1.1"
+    "rollup-plugin-terser": "^5.1.1",
+    "semantic-release": "^15.13.19"
   },
   "husky": {
     "hooks": {

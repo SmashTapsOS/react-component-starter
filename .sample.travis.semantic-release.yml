@@ -1,7 +1,5 @@
 sudo: false
-
 language: node_js
-
 cache:
   directories:
     - node_modules
@@ -9,9 +7,12 @@ cache:
 node_js:
   - node
 
+after_success:
+  - yarn semantic-release
+
 script:
-  - npm run lint
-  - npm run test:coveralls
+  - yarn lint
+  - yarn test:coveralls
 
 notifications:
   email: false
