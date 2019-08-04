@@ -12,12 +12,12 @@ node_js:
   - node
 
 after_success:
-  - yarn semantic-release
+  - npm run semantic-release
 
 script:
-  - yarn lint
-  - yarn test:coveralls
-  - yarn build
+  - npm run lint
+  - npm run test:coveralls
+  - npm run build
 
 notifications:
   email: false

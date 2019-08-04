@@ -37,7 +37,7 @@ This repo uses travis CI with semantic release to automate the release process.
 
 ## How to release
 
-This repo uses `semantic-release` with `commitizen`. Releases are managed by Travis CI. To use this feature run `yarn commit` to commit your changes to git. once you have pused/merged your changes to master branch it will trigger a travis build.
+This repo uses `semantic-release` with `commitizen`. Releases are managed by Travis CI. To use this feature run `npm run commit` to commit your changes to git. once you have pused/merged your changes to master branch it will trigger a travis build.
 
 ## Rollup.js
 

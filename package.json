@@ -70,7 +70,7 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn prettify && yarn lint && yarn test"
+      "pre-commit": "npm run prettify && npm run lint && npm run test"
     }
   },
   "config": {

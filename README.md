@@ -17,13 +17,13 @@ This repo is a starting point for creating react components and library
 
 ### -- Available scripts here --
 
-- `yarn commit`: Commit conventionally
-- `yarn build`: - Build the component/lib.
-- `yarn build:watch` - Watch for changes and build.
-- `yarn test` - Run tests.
-- `yarn test:watch` - Watch for changes and test.
-- `yarn prettify` - Run prettier.
-- `yarn lint` - Run eslint.
-- `yarn lint:fix` - Fix eslint errors.
+- `npm run commit`: Commit conventionally
+- `npm run build`: - Build the component/lib.
+- `npm run build:watch` - Watch for changes and build.
+- `npm run test` - Run tests.
+- `npm run test:watch` - Watch for changes and test.
+- `npm run prettify` - Run prettier.
+- `npm run lint` - Run eslint.
+- `npm run lint:fix` - Fix eslint errors.
 
 ### -- Features here --
