@@ -2,7 +2,9 @@
 
 ## Configuring github
 
-- Clone repo - `git clone https://github.com/samAbeywickrama/test-abeywickrama.git`
+- Clone repo
+  - https: `git clone https://github.com/samAbeywickrama/react-component-starter.git`
+  - ssh: `git clone git@github.com:samAbeywickrama/react-component-starter.git`
 - Remove existing git repo - `rm -rf .git`
 - Initialize new git repo - `git init`
 - Push your changes to your git repo
