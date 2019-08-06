@@ -2,6 +2,7 @@ import babel from "rollup-plugin-babel";
 import resolve from "rollup-plugin-node-resolve";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import postcss from "rollup-plugin-postcss";
+import commonjs from "rollup-plugin-commonjs";
 import { terser } from "rollup-plugin-terser";
 
 const name = "Name";
@@ -38,6 +39,7 @@ export default {
     babel({
       exclude: "node_modules/**"
     }),
-    prod && terser()
+    prod && terser(),
+    commonjs()
   ]
 };
